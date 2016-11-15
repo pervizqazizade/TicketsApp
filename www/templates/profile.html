@@ -1,0 +1,25 @@
+<ion-modal-view>
+  <ion-header-bar class="bar-positive">
+    <div class="buttons">
+      <button class="button button-icon button-clear ion-android-arrow-back" ng-click="closeProfile()"></button>
+    </div>
+    <h1 class="title">Profile</h1>
+  </ion-header-bar>
+  <ion-content class="padding">
+    <div class="list">
+    		<label class="item item-input item-stacked-label">
+    			<span class="input-label">Email</span>
+    			<input type="text" placeholder="Email" value="nabadov.r@gmail.com" />
+    		</label>
+    		<label class="item item-input item-stacked-label">
+    			<span class="input-label">Name</span>
+    			<input type="text" placeholder="Name" value="Rasim Nabadov" />
+    		</label>
+    		<label class="item item-input item-stacked-label">
+    			<span class="input-label">Phone</span>
+    			<input type="text" placeholder="Phone" value="+994515600815" />
+    		</label>
+    	</div>
+    	<button ng-click="closeProfile()" class="button button-block button-positive">Save</button>
+  </ion-content>
+</ion-modal-view>

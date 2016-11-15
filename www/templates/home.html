@@ -1,0 +1,41 @@
+<ion-view view-title='<img class="title-image" src="img/trip_logo.png" />'>
+	<ion-content class="padding" scroll="false">
+    	<div class="list" style="margin-top: 210px;">
+    		<div class="item row destination">
+    			<div class="col">
+    				NULL
+    			</div>
+    			<div class="col">
+    				<center>
+    					<button class="button button-positive main-button">
+    						<i class="icon ion-plane"></i>
+    					</button>
+    				</center>
+    			</div>
+    			<div class="col">
+    				NULL
+    			</div>
+    		</div>
+    		<div class="item row">
+    			<div class="col">
+    				<div class="item" ion-datetime-picker ng-model="travelDate">
+        				{{travelDate | date: "dd.MM.yyyy"}}
+    				</div>
+    			</div>
+    			<div class="col">
+    				<center>
+    					<button class="button button-positive main-button">
+    						EXACT
+    					</button>
+    				</center>
+    			</div>
+    			<div class="col">
+    				<div class="item" ion-datetime-picker ng-model="returnDate">
+        				{{returnDate | date: "dd.MM.yyyy"}}
+    				</div>
+    			</div>
+    		</div>
+   			<button class="button button-block button-positive">Search</button>
+    	</ul>
+  	</ion-content>
+</ion-view>
